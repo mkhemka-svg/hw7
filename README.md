@@ -19,4 +19,5 @@ Overall, the game emphasizes coordination, logic, and timing, making it popular 
 To run:
 
 pip install pygame
+
 python3 tower_defense.py
