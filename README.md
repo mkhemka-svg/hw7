@@ -15,3 +15,8 @@ Single-player or co-op mode: Designed for either one player managing both charac
 Objective
 The goal of each level is to guide both Fireboy and Watergirl safely to their respective exit doors (red for Fireboy, blue for Watergirl) while solving puzzles and avoiding hazards.
 Overall, the game emphasizes coordination, logic, and timing, making it popular for cooperative play and problem-solving practice.
+
+To run:
+
+pip install pygame
+python3 tower_defense.py
