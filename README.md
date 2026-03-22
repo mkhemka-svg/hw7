@@ -37,7 +37,7 @@ Players must guide both characters to their respective doors while avoiding haza
 ## Prompt Log (Phase 1)
 
 ### AI Tools Used
-- ChatGPT (GPT-5.3)
+- ChatGPT 
 
 ---
 
