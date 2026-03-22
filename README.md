@@ -1,7 +1,7 @@
 # Fireboy & Watergirl Game 
 
 ## Project Option
-I chose to build an **interactive browser-based game** using HTML, CSS, and JavaScript.
+I chose to build the Fireboy and Watergirl Game.
 
 ## Overview
 I created a playable prototype inspired by *Fireboy & Watergirl*, a cooperative puzzle-platformer game where two characters must navigate a level together while avoiding hazards and solving simple challenges.
