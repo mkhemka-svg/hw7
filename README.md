@@ -1,23 +1,66 @@
-Fireboy & Watergirl is a cooperative puzzle-platformer game series where players control two characters simultaneously—Fireboy and Watergirl—to navigate through temple-themed levels filled with obstacles, traps, and logic-based challenges.
-Core Gameplay
-Dual-character control: Fireboy is controlled with the arrow keys, while Watergirl uses the WASD keys (or two players can split controls).
-Element-based mechanics:
-Fireboy can safely walk through lava but is harmed by water.
-Watergirl can safely move through water but is harmed by lava.
-Both characters are harmed by green toxic slime.
-Cooperative puzzles: Players must coordinate movements to press switches, move platforms, activate levers, and open doors—often requiring precise timing and teamwork.
-Key Features
-Level design: Each level is structured as a maze-like temple (Forest, Ice, Light, etc.) with increasing difficulty.
-Gem collection: Fireboy collects red gems and Watergirl collects blue gems; collecting them increases the score but is optional.
-Physics-based mechanics: Includes elevators, pulleys, pushable boxes, and light-reflection puzzles (especially in later games like the Light Temple).
-Timed completion: Players are scored based on how quickly they complete a level.
-Single-player or co-op mode: Designed for either one player managing both characters or two players collaborating.
-Objective
-The goal of each level is to guide both Fireboy and Watergirl safely to their respective exit doors (red for Fireboy, blue for Watergirl) while solving puzzles and avoiding hazards.
-Overall, the game emphasizes coordination, logic, and timing, making it popular for cooperative play and problem-solving practice.
+# Fireboy & Watergirl Game 
 
-To run:
+## Project Option
+I chose to build an **interactive browser-based game** using HTML, CSS, and JavaScript.
 
-pip install pygame
+## Overview
+I created a playable prototype inspired by *Fireboy & Watergirl*, a cooperative puzzle-platformer game where two characters must navigate a level together while avoiding hazards and solving simple challenges.
 
-python3 tower_defense.py
+The game includes:
+- Dual-character controls (Arrow keys for Fireboy, WASD for Watergirl)
+- Gravity and jumping physics
+- Platform collision
+- Element-based hazards (fire and water)
+- Gem collection mechanics
+- Door-based win condition
+
+Players must guide both characters to their respective doors while avoiding hazards and collecting gems.
+
+## What I Built
+- Implemented a **canvas-based game loop** using JavaScript
+- Designed a **Player class** to manage movement, gravity, and collisions
+- Added **hazard logic** (Fireboy dies in water, Watergirl dies in fire)
+- Implemented **collectible gems** tied to each character
+- Created a **win condition** where both players must reach their doors
+- Integrated **sprite assets** for Fireboy and Watergirl
+
+## What I Left Unfinished / Future Improvements
+- Proper **sprite animations** (currently using static frames instead of full animation cycles)
+- More advanced **puzzle mechanics** (buttons, moving platforms, levers)
+- Additional hazard types like **toxic slime**
+- Multiple levels with increasing difficulty
+- Improved UI/UX (start screen, score tracking, timer)
+- Better collision accuracy and smoother physics
+
+---
+
+## Prompt Log (Phase 1)
+
+### AI Tools Used
+- ChatGPT (GPT-5.3)
+
+---
+
+### Key Prompts
+
+**1. Initial Game Setup**
+> "Create a simple Fireboy and Watergirl game using HTML, CSS, and JavaScript with movement, gravity, and collision."
+
+**2. Game Mechanics**
+> "Add hazards where Fireboy dies in water and Watergirl dies in fire, and include gems and doors."
+
+**3. Code Structure**
+> "Organize the game using a Player class and a game loop with update and draw functions."
+
+**4. Sprite Integration**
+> "Use sprite sheets for Fireboy and Watergirl and display them on a canvas."
+
+**5. Debugging and Improvements**
+> "Fix collision issues and improve gameplay so that the game is more playable and winnable."
+
+---
+
+## Reflection
+Using AI helped accelerate the development process, especially in setting up the game loop, handling physics, and structuring the code. I still needed to manually adjust logic, debug issues, and ensure the game worked correctly. The combination of AI-generated scaffolding and manual refinement allowed me to build a functional prototype efficiently.
+
+---
