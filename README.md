@@ -1,4 +1,4 @@
-# Fireboy & Watergirl Game 
+# Fireboy & Watergirl Game (Phase 1)
 
 ## Project Option
 I chose to build the Fireboy and Watergirl Game.
