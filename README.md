@@ -59,8 +59,3 @@ Players must guide both characters to their respective doors while avoiding haza
 > "Fix collision issues and improve gameplay so that the game is more playable and winnable."
 
 ---
-
-## Reflection
-Using AI helped accelerate the development process, especially in setting up the game loop, handling physics, and structuring the code. I still needed to manually adjust logic, debug issues, and ensure the game worked correctly. The combination of AI-generated scaffolding and manual refinement allowed me to build a functional prototype efficiently.
-
----
